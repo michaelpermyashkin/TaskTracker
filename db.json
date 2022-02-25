@@ -1,0 +1,34 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "text": "Doctors Appointment",
+      "day": "March 1st at 2:30pm",
+      "reminder": true
+    },
+    {
+      "id": 2,
+      "text": "Meeting at School",
+      "day": "March 6th at 11:00am",
+      "reminder": true
+    },
+    {
+      "id": 3,
+      "text": "Work Conference",
+      "day": "April 2nd at 9am",
+      "reminder": false
+    },
+    {
+      "id": 4,
+      "text": "Rent Due",
+      "day": "March 1st at 12:00pm",
+      "reminder": false
+    },
+    {
+      "id": 5,
+      "text": "Family Reunion",
+      "day": "March 12th at 12:30",
+      "reminder": true
+    }
+  ]
+}
