@@ -1,7 +1,9 @@
 <template>
 <header>
-    <h1>{{ title }}</h1>
-    <Button @btn-click="$emit('toggle-add-task')"
+    <router-link to='/'>
+        <h1>{{ title }}</h1>
+    </router-link>
+    <Button v-show="homePage" @btn-click="$emit('toggle-add-task')"
             :text="showAddTask ? 'Close' : 'Add Task'" 
             :color="showAddTask ? 'red' : 'green'" />
 </header>
@@ -18,6 +20,11 @@ export default {
     },
     components: {
         Button,
+    },
+    computed: {
+        homePage() {
+            return (this.$route.path === '/') ? true : false;
+        }
     }
 }
 </script>
@@ -28,5 +35,8 @@ header {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 20px;
+}
+h1 {
+    color: #000;
 }
 </style>

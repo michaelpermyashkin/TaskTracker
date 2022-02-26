@@ -16,19 +16,25 @@
       "id": 3,
       "text": "Work Conference",
       "day": "April 2nd at 9am",
-      "reminder": false
+      "reminder": true
     },
     {
       "id": 4,
       "text": "Rent Due",
       "day": "March 1st at 12:00pm",
-      "reminder": false
+      "reminder": true
     },
     {
       "id": 5,
       "text": "Family Reunion",
       "day": "March 12th at 12:30",
       "reminder": true
+    },
+    {
+      "text": "Test task",
+      "day": "Tomorrow at 4:00pm",
+      "reminder": false,
+      "id": 6
     }
   ]
 }
